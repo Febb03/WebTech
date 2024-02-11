@@ -1,0 +1,77 @@
+<html>
+<head>
+  <title>Foodable</title>
+  <style>
+    body{
+        background-color: powderblue;
+    }
+    h1 {
+      text-align: center;
+      color: green;
+    }
+
+    p {
+      font-size: 18px;
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-around;
+      margin: 20px;
+    }
+
+    .card {
+      width: 300px;
+      height: 200px;
+      border: 1px solid black;
+      border-radius: 10px;
+      box-shadow: 5px 5px 10px grey;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .card:hover {
+      transform: scale(1.1);
+      transition: 0.3s;
+    }
+
+    .card a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .card img {
+      
+      height: 100px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Foodable - Food made convenient </h1>
+  <p>We deliver delicious food from your favorite restaurants to your doorstep in minutes.</p>
+  <div class="container">
+    <div class="card">
+      <a href="menu.html">
+        <img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/33445/menu-restaurant-clipart-md.png" alt="Menu">
+        <h3>Menu</h3>
+        <p>Explore our wide range of cuisines and dishes.</p>
+      </a>
+    </div>
+    <div class="card">
+      <a href="order.html">
+        <img src="https://www.pinclipart.com/picdir/big/552-5524924_real-time-tracking-png-clipart.png" alt="Order">
+        <h3>Order</h3>
+        <p>Place your order online and track its status.</p>
+      </a>
+    </div>
+    <div class="card">
+      <a href="contact.html">
+        <img src="https://www.pinclipart.com/picdir/big/531-5310511_contact-us-clipart-transparent-png-download.png" alt="Contact">
+        <h3>Contact</h3>
+        <p>Get in touch with us for any queries or feedback.</p>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
